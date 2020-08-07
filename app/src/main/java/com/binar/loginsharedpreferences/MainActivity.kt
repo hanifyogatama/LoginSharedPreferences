@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             if(checkded){
                 editor.putString(dataLogin.FILE_USERNAME,edName.text.toString())
                 editor.putString(dataLogin.FILE_PASSWORD,edPassword.text.toString())
-                editor.putBoolean(dataLogin.SF_NAME,true)
+                editor.putBoolean(dataLogin.FILE_LOGIN,true)
 
                 val saved = editor.commit()
 
